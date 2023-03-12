@@ -1,0 +1,121 @@
+.section2 {
+  background: #f2f2f2;
+  border-radius: 12px;
+  padding: 3.3rem 2.7rem 1.4rem 2.7rem;
+  width: 380px;
+  height: 540px;
+}
+
+.section2-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.2rem;
+  gap: 3.2rem;
+}
+
+.section2-card-subcard__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #4e5150;
+}
+
+.section2-card--subcard--button {
+  width: 100%;
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0.1rem solid #828282;
+  border-radius: 1.2rem;
+}
+
+.section2-card--subcard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.section2-card--subcard img {
+  height: 134px;
+  width: auto;
+  border-radius: 1.3rem;
+}
+
+.section2-card-subcard__info {
+  display: flex;
+  width: 14.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section2-card--subcard--price {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.section2-card--subcard--price p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #f2994a;
+}
+
+.section2-card--subcard--price span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  text-decoration-line: line-through;
+  color: #4e5150;
+}
+
+.section2-card--line {
+  border: 1px solid #bdbdbd;
+}
+
+.section2-card--shippingtotal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section2-card--shippingtotal h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  color: #333333;
+}
+
+.section2-card--shippingtotal p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #333333;
+}
+
+@media (max-width: 1400px) {
+  .section2 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 374px) {
+  .section2 {
+    margin-top: 2rem;
+  }
+}

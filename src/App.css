@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 15% 2% 15%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+@media (max-width: 375px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 3% 2% 3%;
+  }
+}
